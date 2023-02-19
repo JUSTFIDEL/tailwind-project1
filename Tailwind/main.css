@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.btn1 {
+	@apply bg-blue-200 text-black px-4 py-2 m-6 rounded-md text-xl font-semibold hover:bg-blue-600 hover:text-yellow-50 sm:bg-yellow-600 sm:text-white md:bg-purple-500 md:text-yellow-500;
+}
+
+.btn2 {
+	@apply bg-blue-200 text-black px-4 py-2 m-6 rounded-md text-xl font-semibold dark:bg-slate-400 dark:text-white;
+}
